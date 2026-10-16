@@ -10,12 +10,13 @@ tf_streamlit.set_page_config(
     page_title="Pet Feliz | Previsão de Bem-Estar", page_icon="🐾", layout="centered"
 )
 
+
 # Estilização CSS personalizada para um visual limpo e profissional (Estilo Empresarial)
 tf_streamlit.markdown(
     """
     <style>
     .main {
-        background-color: #f8f9fa;
+        background-color: #000000;
     }
     .stButton>button {
         background-color: #2b580c;
